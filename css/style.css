@@ -1,0 +1,41 @@
+header{
+	background-color: #136E9A;
+}
+
+h1{
+	color: white;
+}
+
+h2{
+	color: white;
+}
+
+h3{
+	color: white;
+}
+
+article{
+	font-size: 20px;
+}
+
+footer{
+	color: white;
+	background-color: black;
+}
+
+.progress .progress-bar{
+	animation-name: animateBar;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes animateBar{
+	0% {transform: translateX(-100%);}
+	100%{transform: translateX(0);}
+}
+
+button{
+	border-radius: 10px;
+	background-color: darkgrey;
+}
